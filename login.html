@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>D1优尚网--用户登录</title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/login.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/footer.js" ></script>
+		<script type="text/javascript" src="js/login.js" ></script>
+		<script type="text/javascript">
+			window.onload=function(){
+				new main().m()
+				//log();
+				main1();
+			}
+		</script>
+	</head>
+	<body>
+		<div class="body">
+			<div class="nav-box">
+				<div class="nav">
+					<a href="d1-index.html" class="logo"><img src="img/images/1_5_03.png" title="返回首页" alt="优尚" /></a>
+					<p class="login">你好，欢迎来到D1购物，请<a href="logonin.html">登录</a>或<a href="#">注册</a></p>
+					<ul>
+						<li><a href="#">我的账户</a></li>
+						<li>|</li>
+						<li><a href="#">订单查询</a></li>
+						<li>|</li>
+						<li><a href="#">我的优惠券</a></li>
+						<li>|</li>
+						<li><a href="#">积分换购</a></li>
+						<li>|</li>
+						<li><a href="#">帮助中心</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="main-box">
+				<div dir="top"></div>
+				<div class="main">
+					<a href="#" class="focus">
+						<img src="img/logoin/wxsc0630.jpg" />
+					</a>
+					<div class="login">
+						<div class="inport">
+							<div class="name">
+								<span>用户名：</span><input type="text" id="name">
+								<p id="nameTitle">请输入用户名/Email/手机号</p>
+							</div>
+							<div class="pass">
+								<span>密码：</span><input type="text" id="pass">
+								<a href="#">忘记密码？</a>
+								<p id="passTitle">请输入长度为6-14字符的密码，字母区分大小写</p>
+							</div>
+							<div class="code">
+								<span>验证码：</span><input type="text" id="code">
+								<span id="codeImg"></span>
+								<span class="exchage">看不清，<a href="#" id="exchange" title="点击刷新验证码">换一张</a></span>
+								<p id="codeTitle">请输入验证码</p>
+							</div>
+							<div class="inter">
+								<span></span><img src="img/logoin/login_new.gif" id="inter" /></span>
+								<input type="checkbox" id="check" /><label for="check"><span class="chec">记住用户名</span></label>
+							</div>
+							
+						</div>
+						<div class="join">
+							<h4>合作商户账户登录：</h4>
+							<ul class="joinjb">
+								<li>
+									<a href="#">
+										<img src="img/logoin/weixin-login.png" />
+										<span class="wx">微信</span>
+									</a>
+								</li>
+								<li class="ver">|</li>
+								<li>
+									<a href="#">
+										<img src="img/logoin/alipay-login.png" />
+										<span>支付宝</span>
+									</a>
+								</li>
+								<li class="ver">|</li>
+								<li>
+									<a href="#">
+										<img src="img/logoin/xl.jpg" />
+										<span>新浪微博</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<img src="img/logoin/sh.jpg" />
+										<span>搜狐微博</span>
+									</a>
+								</li>
+								<li class="ver">|</li>
+								<li>
+									<a href="#">
+										<img src="img/logoin/cft.jpg" />
+									</a>
+								</li>
+								<li class="ver">|</li>
+								<li>
+									<a href="#">
+										<img src="img/logoin/139.jpg" />
+										<span>139邮箱</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="d1vip">
+							<h4>还不是D1优尚会员？</h4>
+							<p>立即注册成为D1优尚会员，便能享受便宜又放心的购物乐趣！</p>
+							<a href="sign.html"><img src="img/logoin/reg_new.gif" /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="footer">
+				
+			</div>
+		</div>
+	</body>
+</html>

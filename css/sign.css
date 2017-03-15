@@ -1,0 +1,299 @@
+.body {
+	height: auto;
+	width: 100%;
+	min-width: 1200px;
+}
+
+.nav-box {
+	height: 100px;
+	width: 100%;
+	min-width: 1200px;
+}
+
+.nav {
+	height: 100px;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.nav .logo {
+	display: block;
+	float: left;
+	margin: 10px 10px;
+	width: 305px;
+	height: 70px;
+}
+
+.nav .logo img {
+	float: left;
+	width: 100%;
+}
+
+.nav p {
+	height: 100px;
+	width: 260px;
+	line-height: 40px;
+	text-align: center;
+	float: left;
+	margin: 0 10px;
+}
+
+.nav p a {
+	display: inline-block;
+	color: #8cc341;
+	line-height: 40px;
+	padding: 0 3px;
+}
+
+.nav ul {
+	float: left;
+	margin: 0 10px;
+	height: 100px;
+	width: 350px;
+	margin: 0 10px;
+}
+
+.nav ul li {
+	float: left;
+	line-height: 40px;
+	color: #333;
+}
+
+.nav ul li a {
+	float: left;
+	line-height: 40px;
+	color: #333;
+	padding: 0 5px;
+}
+
+.nav ul li a:hover {
+	color: #aa2e44;
+}
+
+.main {
+	width: 748px;
+	height: 510px;
+	margin: 50px auto 50px;
+	border: 1px solid #c2c2c2;
+	box-shadow: 5px 5px 5px #ccc;
+	
+}
+
+.main .mainLogo {
+	height: 76px;
+	background: url(../img/sigin/zc_03-2.jpg) no-repeat;
+}
+
+.main .mainLogo a {
+	display: block;
+	height: 76px;
+	width: 250px;
+	float: right;
+	line-height: 66px;
+	text-align: center;
+}
+
+.main .mainLogo a img {
+	vertical-align: middle;
+}
+
+.main .mainLogo a span {
+	font-size: 14px;
+	color: #fff;
+	margin-right: 10px;
+}
+
+.main .main-sign {
+	height: auto;
+	width: 600px;
+	margin: 0 auto;
+}
+
+.main-sign h3 {
+	line-height: 30px;
+	color: #d1436b;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 20px;
+}
+
+.main-sign div {
+	width: 660px;
+	margin: 0px auto;
+}
+
+.main-sign div>span {
+	width: 90px;
+	display: inline-block;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.main-sign .number {
+	height: 30px;
+	width: 100%;
+	margin-top: 5px;
+}
+
+.main-sign .number #num {
+	height: 25px;
+	width: 220px;
+	background: #f4f4f4;
+	border: 1px solid #ababab;
+	vertical-align: middle;
+}
+
+.main-sign .code {
+	height: 30px;
+	width: 100%;
+	margin: 5px;
+}
+
+.main-sign .code #code {
+	height: 18px;
+	width: 130px;
+	border: 1px solid #ABABAB;
+	vertical-align: middle;
+}
+
+.main-sign .code #auth {
+	height: 30px;
+	width: 77px;
+	margin: 0 3px;
+}
+
+.main-sign .code #auth+a {
+	color: #575757;
+}
+
+.main-sign .code #but {
+	height: 30px;
+	width: 90px;
+	border: 1px solid #ABABAB;
+	background: #F4F4F4;
+	vertical-align: middle;
+	outline: none;
+	cursor: pointer;
+}
+
+.main-sign .phoneCode {
+	height: 73px;
+	width: 100%;
+	margin-top: 5px;
+}
+
+.main-sign .phoneCode #phoneCode {
+	height: 25px;
+	width: 220px;
+	border: 1px solid #ABABAB;
+	background: #F4F4F4;
+	line-height: 25px;
+	vertical-align: middle;
+}
+
+.main-sign .phoneCode p {
+	display: block;
+	color: #999;
+	margin-left: 92px;
+	line-height: 25px;
+}
+
+.main-sign .sex {
+	height: 50px;
+	width: 100%;
+	margin-top: 5px;
+}
+
+.main-sign .sex input {
+	height: 14px;
+	width: 14px;
+	border: 1px solid #ABABAB;
+	background: #F4F4F4;
+	vertical-align: middle;
+	margin: 0 4px;
+}
+
+.main-sign .sex img {
+	vertical-align: middle;
+}
+
+.main-sign .sex p {
+	margin-left: 92px;
+	color: #999;
+	width: 300px;
+}
+
+.main-sign .pass {
+	height: 50px;
+	width: 100%;
+	margin-top: 5px;
+}
+
+.main-sign .pass input {
+	height: 25px;
+	width: 220px;
+	border: 1px solid #ABABAB;
+	background: #F4F4F4;
+	vertical-align: middle;
+}
+
+.main-sign .pass img {
+	vertical-align: middle;
+}
+
+.main-sign .pass p {
+	line-height: 25px;
+	color: #999;
+	margin-left: 92px;
+	width: 340px;
+}
+
+.main-sign .rpass {
+	height: 50px;
+	width: 100%;
+	margin-top: 5px;
+}
+
+.main-sign .rpass input {
+	height: 25px;
+	width: 220px;
+	border: 1px solid #ABABAB;
+	background: #F4F4F4;
+	vertical-align: middle;
+}
+
+.main-sign .rpass img {
+	vertical-align: middle;
+}
+
+.main-sign .rpass p {
+	line-height: 25px;
+	color: #999;
+	margin-left: 92px;
+	width: 300px;
+}
+
+.main-sign .reg {
+	height: 50px;
+	width: 100%;
+	margin-top: 5px;
+	text-align: center;
+	line-height: 50px;
+}
+
+.main-sign .reg input {
+	height: 34px;
+	width: 115px;
+	background: #791268;
+	border: 2px solid #ddd;
+	color: #fff;
+	font-weight: bold;
+	font-size: 16px;
+	cursor: pointer;
+	outline: none;
+}
+
+.foot {
+	height:auto;
+	width:100%;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>D1购物车</title>
+		<link rel="icon" href="img/title.ico"  type="image/x-icon" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/care.css"  />
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/care.js"></script>
+		<script type="text/javascript">
+			window.onload=function(){
+				new Care().addcare();
+			}
+		</script>
+	</head>
+	<body>
+		<div class="body">
+			<div class="nav">
+				<span class="place">你好，欢迎来到D1购物，请</span>
+				<a href="login.html">登录</a>
+				<span>或</span>
+				<a href="sign.html">注册</a>
+				<a href="#" class="help">帮助中心</a>
+			</div>
+		
+			<div class="logo">
+				<img src="img/sc_logo.jpg" />
+			</div>
+			
+			<div class="main">
+				<h2>挑选我的商品清单</h2>
+				<p class="tit">温馨提示：1.选购清单中的商品无法保留库存，请您及时结算。2.商品价格、赠品及库存将以订单提交时为准。</p>
+				<div class="shop">
+					<p id="last">如果您上次退出时，购物车中有商品，那么商品已自动保存，<a href="#">请登录后查看>></a></p>
+					<div id="sh">
+						<p>  如下商品，由 D1优尚网 负责发货</p>
+						<table cellspacing="0" cellpadding="0" id="tablist">
+							<thead id="thd">
+								<tr>
+									<td></td>
+									<td>商品名称/编号</td>
+									<td>规格</td>
+									<td>会员价</td>
+									<td>成交价</td>
+									<td>数量</td>
+									<td>小计</td>
+								</tr>
+							</thead>
+							<tbody id="tbd">
+								
+							</tbody>
+						</table>
+						<div class="totle">
+							<span class="tot">购物车商品总计：</span>
+							<span class="tot totnum">1</span>
+							<span class="tot tot1">件</span>
+							<span class="many">应付总额</span>
+							<span class="many manynum">19</span>
+							<span class="many">元</span>
+						</div>
+						<div class="close">
+							<a href="care.html" id="clos">清空购物车</a>
+							<a href="d1-index.html"><img src="img/sc_jxgw.gif" /></a>
+							<a href="#"><img src="img/sc_ljjs.gif" /></a>
+						</div>
+					</div>
+				</div>
+				<div class="rule">
+					<p>【免运费规则】</p>
+					<p>1. 在线支付、微信支付：实际支付金额满<span>88</span>元免运费；不满足条件时，每单收取<span>5元</span>运费。</p>
+					<p>2 .货到付款：支付金额超过<span>88</span>元的订单支持货到付款。货到付款免运费。</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

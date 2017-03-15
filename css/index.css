@@ -1,0 +1,531 @@
+.banner {
+	height: 400px;
+	width: 100%;
+	min-width: 1200px;
+	position: relative;
+	overflow:hidden;
+}
+
+.banner .bannerImages{
+	height:400px;
+	width:100%;
+	min-width:1200px;
+	position:relative;
+}
+
+.banner .bannerImages .bannerBox{
+	height:400px;
+	width:100%;
+	position: absolute;
+	top:0px;
+	left:0px;
+	display:none;
+	opacity: 0.3;
+	filter: (opacity=30);
+}
+
+.banner .bannerImages .bannerBox:nth-child(1){
+	display:block;
+	opacity: 1;
+	filter: (opacity=100);
+}
+
+.banner .bannerImages .bannerbj{
+	display:block;
+	height:500px;
+	width:1000px;
+	margin:0px auto;
+	
+}
+.banner .btn{
+	height:30px;
+	position:absolute;
+	bottom:10px;
+	left:50%;
+	margin-left:-75px;
+	z-index: 999;
+	padding-right:5px;
+	cursor: pointer;
+}
+
+.banner .btn span{
+	height:20px;
+	width:20px;
+	border-radius: 50%;
+	margin:5px auto auto 5px;
+	text-align: center;
+	line-height:20px;
+	background-color:#000;
+	color:#fff;
+	display: block;
+	float:left;
+}
+
+.banner .arrow{
+	height:42px;
+	width:1000px;
+	position: absolute;
+	top:160px;
+	left:50%;
+	margin-left:-500px;
+	z-index: 999;
+	cursor: pointer;
+	display: none;
+}
+
+.banner .arrow div{
+	width:100%;
+	height:42px;
+	position: relative;
+}
+
+.banner .arrow div .btnLeft{
+	display:block;
+	height:42px;
+	width:25px;
+	position:absolute;
+	top:0px;
+	left:40px;
+}
+
+.banner .arrow div .btnRight{
+	display:block;
+	height:42px;
+	width:25px;
+	position:absolute;
+	top:0px;
+	right:40px;
+}
+
+.main-box {
+	height: auto;
+	width: 100%;
+	min-width: 1200px;
+	position: relative;
+	background: #f6f6f6;
+}
+
+.main-box #main-top {
+	height: 60px;
+	width: 100%;
+	min-width: 1200px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 333;
+	background: rgba(238,238,238,0.7);
+	
+}
+
+.main-box #main-top ul {
+	height: 60px;
+	width: 1200px;
+	margin: 0px auto;
+}
+
+.main-box #main-top ul li {
+	float: left;
+	line-height: 30px;
+	height: 30px;
+	padding: 1px;
+	margin-top: 14px;
+	width: 160px;
+	text-align: center;
+	cursor: pointer;
+}
+
+
+.main-box #main-top ul .act {
+	background: #cd0074;
+	color: #fff;
+}
+
+.main {
+	width: 1200px;
+	height: auto;
+	margin: 0px auto;
+	margin-bottom: 20px;
+}
+
+.main div {
+	width: 1198px;
+	padding: 1px;
+}
+
+.main #main-first {
+	height: 1245px;
+}
+
+.main #main-two,
+.main #main-three,
+.main #main-four,
+.main #main-five,
+.main #main-six {
+	height: 1675px;
+}
+
+.main div>img {
+	width: 100%;
+	display: block;
+}
+
+
+/**************创意主题*******************/
+
+.main #main-first>img {
+	margin-top: 60px;
+}
+
+.main #main-first div {
+	height: 305px;
+	width: 555px;
+	border: 5px solid #fff;
+	background: #fff;
+	float: left;
+	margin: 15px 15px;
+}
+
+.main #main-first div a {
+	display: block;
+	height: 305px;
+	width: 555px;
+	font-size: 18px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.main #main-first div a span {
+	line-height: 56px;
+	display: block;
+}
+
+.main #main-first div a:hover {
+	color: #f44236;
+	opacity: 0.9;
+	filter: (opacity=90);
+}
+
+
+/*************原创设计********************/
+
+.main #main-two div {
+	width: 370px;
+	height: 370px;
+	float: left;
+	margin: 5px 5px;
+	background: #fff;
+	position: relative;
+	overflow: hidden;
+}
+
+.main #main-two div img {
+	display: block;
+	width: 100%;
+}
+
+.main #main-two div .spric {
+	display: block;
+	height: 135px;
+	position: absolute;
+	bottom: -68px;
+	left: 0px;
+	z-index: 10;
+	border-bottom: 5px solid #dedede;
+	background: #fff;
+	width: 100%;
+	text-align: center;
+}
+
+.main #main-two div .spric .aspan1 {
+	display: block;
+	height: 70px;
+	line-height: 70px;
+	font-size: 18px;
+	color: #2c3e50;
+}
+
+.main #main-two div .spric .aspan2 {
+	display: inline-block;
+	line-height: 25px;
+	color: #a9b1bc;
+	margin-left: 20px;
+	font-size: 18px;
+}
+
+.main #main-two div .spric .aspan3 {
+	font-size: 18px;
+	color: red;
+	display: inline-block;
+}
+
+.main #main-two div .spanbj {
+	display: none;
+	height: 300px;
+	width: 370px;
+	background: #000;
+	opacity: 0.6;
+	z-index: 1;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+
+/***************创意家居******************/
+
+.main #main-three div {
+	width: 370px;
+	height: 370px;
+	float: left;
+	margin: 5px 5px;
+	background: #fff;
+	position: relative;
+	overflow: hidden;
+}
+
+.main #main-three div img {
+	display: block;
+	width: 100%;
+}
+
+.main #main-three div .spric {
+	display: block;
+	height: 135px;
+	position: absolute;
+	bottom: -68px;
+	left: 0px;
+	z-index: 10;
+	border-bottom: 5px solid #dedede;
+	background: #fff;
+	width: 100%;
+	text-align: center;
+}
+
+.main #main-three div .spric .aspan1 {
+	display: block;
+	height: 70px;
+	line-height: 70px;
+	font-size: 18px;
+	color: #2c3e50;
+}
+
+.main #main-three div .spric .aspan2 {
+	display: none;
+	line-height: 25px;
+	color: #a9b1bc;
+	margin-left: 20px;
+	font-size: 18px;
+}
+
+.main #main-three div .spric .aspan3 {
+	font-size: 18px;
+	color: red;
+	display: inline-block;
+}
+
+.main #main-three div .spanbj {
+	display: none;
+	height: 300px;
+	width: 370px;
+	background: #000;
+	opacity: 0.6;
+	z-index: 1;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+
+/***************数码宝贝******************/
+
+.main #main-four div {
+	width: 370px;
+	height: 370px;
+	float: left;
+	margin: 5px 5px;
+	background: #fff;
+	position: relative;
+	overflow: hidden;
+}
+
+.main #main-four div img {
+	display: block;
+	width: 100%;
+}
+
+.main #main-four div .spric {
+	display: block;
+	height: 135px;
+	position: absolute;
+	bottom: -68px;
+	left: 0px;
+	z-index: 10;
+	border-bottom: 5px solid #dedede;
+	background: #fff;
+	width: 100%;
+	text-align: center;
+}
+
+.main #main-four div .spric .aspan1 {
+	display: block;
+	height: 70px;
+	line-height: 70px;
+	font-size: 18px;
+	color: #2c3e50;
+}
+
+.main #main-four div .spric .aspan2 {
+	display: inline-block;
+	line-height: 25px;
+	color: #a9b1bc;
+	margin-left: 20px;
+	font-size: 18px;
+}
+
+.main #main-four div .spric .aspan3 {
+	font-size: 18px;
+	color: red;
+	display: inline-block;
+}
+
+.main #main-four div .spanbj {
+	display: none;
+	height: 300px;
+	width: 370px;
+	background: #000;
+	opacity: 0.6;
+	z-index: 1;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+
+/***************原创设计******************/
+
+.main #main-five div {
+	width: 370px;
+	height: 370px;
+	float: left;
+	margin: 5px 5px;
+	background: #fff;
+	position: relative;
+	overflow: hidden;
+}
+
+.main #main-five div img {
+	display: block;
+	width: 100%;
+}
+
+.main #main-five div .spric {
+	display: block;
+	height: 135px;
+	position: absolute;
+	bottom: -68px;
+	left: 0px;
+	z-index: 10;
+	border-bottom: 5px solid #dedede;
+	background: #fff;
+	width: 100%;
+	text-align: center;
+}
+
+.main #main-five div .spric .aspan1 {
+	display: block;
+	height: 70px;
+	line-height: 70px;
+	font-size: 18px;
+	color: #2c3e50;
+}
+
+.main #main-five div .spric .aspan2 {
+	display: inline-block;
+	line-height: 25px;
+	color: #a9b1bc;
+	margin-left: 20px;
+	font-size: 18px;
+}
+
+.main #main-five div .spric .aspan3 {
+	font-size: 18px;
+	color: red;
+	display: inline-block;
+}
+
+.main #main-five div .spanbj {
+	display: none;
+	height: 300px;
+	width: 370px;
+	background: #000;
+	opacity: 0.6;
+	z-index: 1;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+
+
+/***************创意主题******************/
+
+.main #main-six div {
+	width: 370px;
+	height: 370px;
+	float: left;
+	margin: 5px 5px;
+	background: #fff;
+	position: relative;
+	overflow: hidden;
+}
+
+.main #main-six div img {
+	display: block;
+	width: 100%;
+}
+
+.main #main-six div .spric {
+	display: block;
+	height: 135px;
+	position: absolute;
+	bottom: -68px;
+	left: 0px;
+	z-index: 10;
+	border-bottom: 5px solid #dedede;
+	background: #fff;
+	width: 100%;
+	text-align: center;
+}
+
+.main #main-six div .spric .aspan1 {
+	display: block;
+	height: 70px;
+	line-height: 70px;
+	font-size: 18px;
+	color: #2c3e50;
+}
+
+.main #main-six div .spric .aspan2 {
+	display: inline-block;
+	line-height: 25px;
+	color: #a9b1bc;
+	margin-left: 20px;
+	font-size: 18px;
+}
+
+.main #main-six div .spric .aspan3 {
+	font-size: 18px;
+	color: red;
+	display: inline-block;
+}
+
+.main #main-six div .spanbj {
+	display: none;
+	height: 300px;
+	width: 370px;
+	background: #000;
+	opacity: 0.6;
+	z-index: 1;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}

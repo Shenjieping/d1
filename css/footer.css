@@ -1,0 +1,149 @@
+.footer-box {
+	width: 100%;
+	min-width: 1200px;
+	height: auto;
+}
+
+.footer {
+	width: 1000px;
+	margin: 0px auto;
+	height: 430px;
+	border-top: 1px solid #ccc;
+	padding: 1px;
+}
+
+.footer .footer-top {
+	height: 70px;
+	margin-top: 10px;
+}
+
+.footer .footer-top span {
+	height: 50px;
+	width: 130px;
+	display: inline-block;
+	margin: 12px 40px 0 40px;
+	background-image: url(../img/index_iconnew.png);
+	background-repeat: no-repeat;
+}
+
+.footer .footer-top .zp {
+	background-position: 0px -80px;
+}
+
+.footer .footer-top .ps {
+	background-position: -155px -80px;
+}
+
+.footer .footer-top .aq {
+	background-position: -330px -80px;
+}
+
+.footer .footer-top .fw {
+	background-position: -510px -80px;
+}
+
+.footer .footer-center {
+	height: 150px;
+	margin-top: 5px;
+	width: 1010px;
+	margin: 0px auto;
+}
+
+.footer .footer-center div {
+	float: left;
+	margin-left: 30px;
+	height: 150px;
+}
+
+.footer .footer-center .foot-first {
+	width: 120px;
+}
+
+.footer .footer-center .foot-two {
+	width: 70px;
+}
+
+.footer .footer-center .foot-three {
+	width: 115px;
+}
+
+.footer .footer-center .foot-four {
+	width: 120px;
+}
+
+.footer .footer-center .foot-five {
+	width: 130px;
+}
+
+.footer .footer-center .foot-six {
+	width: 270px;
+	background: url(../img/index_iconnew.png) no-repeat 0px -342px;
+}
+
+.footer .footer-center div h3 {
+	line-height: 33px;
+	font-size: 14px;
+}
+
+.footer .footer-center div ul {
+	height: auto;
+}
+
+.footer .footer-center div ul li a {
+	line-height: 25px;
+	color: #818181;
+	display: inline-block;
+}
+
+.footer .footer-center div ul li .query {
+	color: #F04652;
+}
+
+.footer .footer-center div ul li a:hover {
+	color: #aa2e44;
+}
+
+.footer-bottom {
+	width: 100%;
+	height: 200px;
+}
+
+.footer-bottom ul {
+	height: 30px;
+	width: 460px;
+	display: block;
+	margin: 0 auto;
+}
+
+.footer-bottom ul li {
+	float: left;
+	line-height: 30px;
+}
+
+.footer-bottom ul li a {
+	float: left;
+	line-height: 30px;
+	color: #4B4B4B;
+	padding: 0 5px;
+}
+
+.footer-bottom ul li a:hover {
+	color: #AA2E44;
+}
+
+.footer-bottom .footer-img {
+	height: 55px;
+	width: 635px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+
+.footer-bottom .footer-img a {
+	float: left;
+	margin: 0 3px;
+}
+
+.footer-bottom p {
+	line-height: 30px;
+	text-align: center;
+}

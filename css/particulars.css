@@ -1,0 +1,23 @@
+#main{
+	height:auto;
+	width:100%;
+	min-width: 1200px;
+	margin:0px auto;
+}
+#main .mainHead{
+	height:350px;
+	width:100%;
+	background-position: -380px 0px;
+}
+#main .mainbottom{
+	width:980px;
+	height:auto;
+	margin:0px auto;
+}
+#main .mainbottom a{
+	display:block;
+	overflow: hidden;
+}
+#main .mainbottom a img{
+	display:block;
+}

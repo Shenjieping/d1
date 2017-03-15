@@ -1,0 +1,54 @@
+.body{height:auto;width:100%;min-width:1200px;}
+.nav-box{height:100px;width:100%;min-width:1200px;}
+.nav{height:100px;width:1200px;margin:0 auto;}
+.nav .logo{display:block;float:left;margin:10px 10px;width:305px;height:70px;}
+.nav .logo img{float:left;width:100%;}
+.nav p{height:100px;width:260px;line-height: 40px;text-align: center;float:left;margin:0 10px;}
+.nav p a{display: inline-block;color:#8cc341;line-height:40px;padding: 0 3px;}
+.nav ul{float:left;margin:0 10px;height:100px;width:350px;margin:0 10px;}
+.nav ul li{float:left;line-height:40px;color:#333;}
+.nav ul li a{float:left;line-height:40px;color:#333;padding: 0 5px;}
+.nav ul li a:hover{color:#aa2e44;}
+.main-box{width:100%;min-width:1200px;}
+.main{width:1200px;margin:0px auto;height:550px;}
+.main .focus{display:block;height:304px;width:496px;float:left;margin:90px 0 0 30px;}
+.main .focus img{float:left;width:100%;}
+.main .login{height:470px;width:405px;border-radius: 10px;
+float:left;margin:30px 0 0 70px;background: url(../img/logoin/login_fd.png) no-repeat;
+padding:1px;}
+
+.inport{height:auto;width:350px;margin:60px 25px 0;}
+.inport div{height:auto;width:100%;margin-top:5px;}
+.inport div span{display:inline-block;width:55px;line-height:22px;text-align: right;}
+.inport div input{display:inline-block;width:180px;height:22px;vertical-align: middle;
+background:#f4f4f4;border:1px solid #acacac;margin-left:3px;}
+.inport div #code{width:80px;}
+.inport div .exchage{width:100px;line-height: 22px;text-align: center;}
+.inport div .exchage a{color:#0149ab;text-decoration:underline;}
+.inport .pass a{text-decoration:underline;}
+.inport .pass a:hover{color:#EC3D42;}
+.inport .inter{margin-top:20px;}
+.inport .inter a{display:inline-block;height:42px;width:110px;
+vertical-align: middle;margin-left:80px;}
+.inport .inter #check{vertical-align: middle;height:15px;width:15px;}
+.inport .inter span{width:70px;}
+
+.join{width:348px;height:90px;margin:5px 25px 3px;background:#f2f2f2;padding:1px;}
+.join h4{line-height:20px;font-size:12px;font-weight:normal;margin-top:5px;}
+.join .joinjb{height:63px;width:283px;padding:0 40px 0 5px;}
+.join .joinjb li{float:left;height:30px;padding:0px 5px;vertical-align: bottom;}
+.join .joinjb li a span{color:#0149ab;}
+.join .joinjb li a span:hover{text-decoration:underline;}
+.join .joinjb li a .wx{color:#4b4b4b;}
+.join .joinjb li a .wx:hover{color:#F0424E;text-decoration:none;}
+.join .joinjb .ver{height:20px;padding-top:10px;color:#4b4b4b;}
+
+.d1vip{width:350px;height:120px;margin:5px 25px 0px;border-top:1px solid #c2c2c2;}
+.d1vip h4{color:#c60000;font-size: 12px;line-height:25px;}
+.d1vip a{display: block;width:100%;text-align: center;margin-top:15px;}
+
+#footer{height:auto;width:1200px;margin:0px auto;}
+
+#nameTitle,#passTitle,#codeTitle{line-height:18px;border:1px solid #6bc7f0;
+background:#e8f5fd;margin-left:59px;display:none;padding:0 4px;color:#74797d;
+}

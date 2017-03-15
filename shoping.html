@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/d1-common.css" />
+		<link rel="stylesheet" href="css/d1-index.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<link rel="stylesheet" href="css/shoping.css" />
+		<link rel="icon" href="img/title.ico"  type="image/x-icon" />
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/d1-index.js"></script>
+		
+		<script type="text/javascript" src="js/Ajax.js" ></script>
+		<script type="text/javascript" src="js/shoping.js" ></script>
+		<script type="text/javascript" src="js/cookie.js"></script>
+		<script type="text/javascript">
+			window.onload=function(){
+				var _m=new Main();
+				_m.main();
+				var _s=new Shopimg();
+				_s.shopstar();
+				new ClassId().classid()
+				AddCare();
+			}
+		</script>
+	</head>
+	<body>
+		<div class="body" id="sss">
+			<div id="head"></div>
+			<div class="adg">
+				<a href="#" class="cus"></a>
+				<a href="#sss" name="Top" class="returnTop"></a>
+			</div>
+			<div class="main">
+				<div id="top">
+					<div id="topLeft">
+						<div class="topd1">
+							<span>D1优尚网</span>
+						</div>
+						<div id="topImg">
+							<img src="img/shoping/comm/gdssf.jpg" class="gdss" />
+							<div id="topLarg">
+								<img src="img/shoping/shop01/002.jpg" id="big" />
+							</div>
+							<div id="topImg1">
+								<div id="topBj"></div>
+							</div>
+							<div id="topImg2"></div>
+						</div>
+						<div class="share">
+							<div class="share1">
+								<img src="img/shoping/comm/fdtp.gif" />
+								<a href="#">点击放大图片</a>
+							</div>
+							<div class="share2">
+								<img src="img/shoping/comm/p_013-2.png" />
+								<a href="#">
+									<img src="img/shoping/comm/sina.gif" />
+								</a>
+								<a href="#">
+									<img src="img/shoping/comm/sohuwb.gif" />
+								</a>
+								<a href="#">
+									<img src="img/shoping/comm/wb.gif" />
+								</a>
+								<a href="#">
+									<img src="img/shoping/comm/qq.gif" />
+								</a>
+							</div>
+						</div>
+					</div>
+					<div id="topRight">
+						<h2 id="hd"></h2>
+						<div id="hubhd"></div>
+						<div id="price">
+							<div class="d1price">D1价</div>
+							<div class="cost">
+								<div class="cost1">
+									<span id="origin1"></span>
+									<span id="origin2"></span>
+								</div>
+								<div class="cost2">
+									<span id="bazz1">市场价：￥</span>
+									<span id="bazz2"></span>
+								</div>
+							</div>
+						</div>
+						<div class="vip">
+							<span class="vipprice1">VIP价：</span>
+							<span id="vprice1"></span>
+							<span class="vipprice2">白金价：</span>
+							<span id="vprice2"></span>
+						</div>
+						<div class="code">
+							<div class="shopId">
+								<span>商品编码：</span>
+								<span id="code"></span>
+							</div>
+							<div class="serve">
+								<span class="ser">服 务：</span>
+								<span id="serv"></span>
+							</div>
+							<div class="garde">
+								<span>顾客评分：</span>
+								<span id="garden"></span>
+							</div>
+						</div>
+						<div class="select">
+							<div class="sel">
+								<span class="place">选择规格</span>
+								<span id="model">未选择</span>
+							</div>
+							<div id="sort">
+								<div class="clear"></div>
+							</div>
+							<div class="num">
+								<span>购买数量：</span>
+								<img src="img/shoping/comm/j_a.png" id="j_a" />
+								<input type="text" value="1" min="1" max="50" />
+								<img src="img/shoping/comm/a_j.png" id="a_j" />
+							</div>
+							<div class="zp">
+								<span id="zs"></span>
+							</div>
+						</div>
+						<div class="coll">
+							<a href="#" id="addcare">
+								<img src="img/shoping/comm/frgwc.png" />
+							</a>
+							<a href="#" id="collshop">
+								<img src="img/shoping/comm/jrsc.png" />
+							</a>
+							<div id="sure">
+								加入购物车成功！！
+							</div>
+						</div>
+					</div>
+				</div>
+				<div id="bottom">
+					<div id="bottomLeft">
+						<div class="clear"></div>
+					</div>
+					<div id="bottomRight">
+						<div class="bottom1">
+							<div class="information">商品信息</div>
+							<div class="assess">顾客评价</div>
+							<div class="ques">商品问答</div>
+							<div class="after">售后及配送</div>
+						</div>
+						<div id="bottom2">
+							<div id="infor" class="in">
+								<div class="inforTop" id="aa">
+									<div class="inforH">
+										<img src="img/shoping/comm/spxq.jpg" />
+										<span>商品详情</span>
+									</div>
+									<div id="inforTop"></div>
+								</div>
+								<div id="inforBottom">
+									
+								</div>
+							</div>
+							<div id="ass" class="in">
+								<div class="addHead">
+									<img src="img/shoping/comm/gkpl_star.gif" />
+									<span>顾客评论</span>
+								</div>
+								<div class="assDis">
+									<span>购买过的顾客评分</span>
+									<img src="img/shoping/comm/gds_star5.gif" />
+								</div>
+								<div class="discussAss">
+									<div class="disLeft">
+										<img src="img/shoping/comm/hyimg.jpg" />
+										<span>****1381022</span>
+										<span>普通会员</span>
+									</div>
+									<div class="disRight">
+										<div class="disRightTop">
+											<span class="scor">评分</span>
+											<img src="img/shoping/comm/gds_star5.gif" />
+											<span class="date">2017-2-7</span>
+										</div>
+										<div class="disRightBottom">
+											齿轮要细细的磨，牙签也得磨细磨圆才好用，三四个小时，差不多
+										</div>
+									</div>
+								</div>
+								<div class="discussAss">
+									<div class="disLeft">
+										<img src="img/shoping/comm/hyimg.jpg" />
+										<span>****1381022</span>
+										<span>普通会员</span>
+									</div>
+									<div class="disRight">
+										<div class="disRightTop">
+											<span class="scor">评分</span>
+											<img src="img/shoping/comm/gds_star5.gif" />
+											<span class="date">2017-2-7</span>
+										</div>
+										<div class="disRightBottom">
+											齿轮要细细的磨，牙签也得磨细磨圆才好用，三四个小时，差不多
+										</div>
+									</div>
+								</div>
+								<div class="discussAss">
+									<div class="disLeft">
+										<img src="img/shoping/comm/hyimg.jpg" />
+										<span>****1381022</span>
+										<span>普通会员</span>
+									</div>
+									<div class="disRight">
+										<div class="disRightTop">
+											<span class="scor">评分</span>
+											<img src="img/shoping/comm/gds_star5.gif" />
+											<span class="date">2017-2-7</span>
+										</div>
+										<div class="disRightBottom">
+											齿轮要细细的磨，牙签也得磨细磨圆才好用，三四个小时，差不多
+										</div>
+									</div>
+								</div>
+							</div>
+							<div id="que" class="in">
+								<div class="queHead">
+									温馨提示：因厂家更改商品包装、产地或者更换随机附件等没有任何提前通知，且每位咨询者购买情况、提问时间等不同，为此以下回复仅对提问者3天内有效，其他网友仅供参考！若由此给您带来不便请多多谅解，谢谢！
+								</div>
+								<p class="desk">发表咨询</p>
+								<p class="state">声明：您可在购买前对产品包装、颜色、运输、库存等方面进行咨询，我们有专人进行回复！因厂家随时会更改一些产品的包装、颜色、
+产地等参数，所以该回复仅在当时对提问者有效，其他网友仅供参考！咨询回复的工作时间为：周一至周日：9:00至21:00，请耐心等待工作人员的回复。
+								</p>
+							</div>
+							<div id="aft" class="in">4</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					
+				</div>
+				<div class="clear"></div>
+			</div>
+			
+			<div id="footer"></div>
+		</div>
+	</body>
+</html>

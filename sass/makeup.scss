@@ -1,0 +1,327 @@
+﻿$w1:995px;
+$h1:35px;
+$b1:1px;
+$color1:#e2e2e2;
+$solid:solid;
+$markmargin1:0px;
+$markmargin2:auto;
+$bodywidth:100%;
+$bodyheight:auto;
+$lg:35px;
+$paddingleft1:5px;
+$color2:#aa2e44;
+.body{
+    width:$bodywidth;
+    height:$bodyheight;
+}
+.mark{
+    width:$w1;
+    height:$h1;
+    border:$b1 $solid $color1;
+    margin:$markmargin1 $markmargin2;
+    line-height: $lg;
+    padding-left: $paddingleft1;
+}
+.mark a:hover{
+    color: $color2;
+}
+
+$menuwidth:980px;
+$menuheight:439px;
+$menuMarginTop:12px;
+$menuBoderColor:#ccc;
+$menuBorderWidth:1px;
+.menue{
+    width:$menuwidth;
+    height:$menuheight;
+    border: $menuBorderWidth $solid $menuBoderColor;
+    margin:$menuMarginTop $markmargin2;
+}
+
+$menuColosWidth:100%;
+$menuColosHeight:auto;
+$menuColosPaddingTop:5px;
+$menuColosColor:#e2e2e2;
+.colos{
+    width:$menuColosWidth;
+    height:$menuColosHeight;
+    padding:$menuColosPaddingTop 0;
+    border-bottom: $b1 $solid $menuColosColor;
+}
+
+$menuLeftWidth:85px;
+$menuLeftHeight:30px;
+$menuLeftFloat:left;
+$menuLeftTxt:center;
+$menuLeftLine:30px;
+
+.menuLeft{
+    width:$menuLeftWidth;
+    height:$menuLeftHeight;
+    float:$menuLeftFloat;
+    text-align: $menuLeftTxt;
+    line-height:$menuLeftLine;
+    border-right:$b1 $solid $color1;
+    
+    
+}
+$menuRightWidth:837px;
+.menuRight{
+    width:$menuRightWidth;
+    height:$menuColosHeight;
+    float:$menuLeftFloat;
+    line-height:$menuLeftLine;
+}
+
+.colos .menuRight li{
+    float:$menuLeftFloat;
+    line-height:$menuLeftLine;
+}
+$menuRightPaddingLeft:8px;
+$menuRightColor:#666;
+$menuRightFontSize:14px;
+.colos .menuRight li a{
+    float:$menuLeftFloat;
+    padding:0 $menuRightPaddingLeft;
+    line-height:$menuLeftLine;
+    color:$menuRightColor;
+}
+$menuRightHoverColor:#e4393c;
+.colos .menuRight li a:hover{
+    color:$menuRightHoverColor;
+}
+
+$sortWidth:980px;
+$sortHeight:35px;
+$borderTopWidth:2px;
+$borderTopColor:#575757;
+
+.sort{
+    width:$sortWidth;
+    height:$sortHeight;
+    border: $menuBorderWidth $solid $menuBoderColor;
+    border-top:$borderTopWidth $solid $borderTopColor;
+    margin:0px $markmargin2 20px;
+    
+}
+
+$sortUlWidth:363px;
+.sort ul{
+    height:$sortHeight;
+    width:$sortUlWidth;
+    float:$menuLeftFloat;
+}
+.sort ul li{
+    height:$sortHeight;
+    float:$menuLeftFloat;
+    line-height:$sortHeight;
+    border-right: $menuBorderWidth $solid $menuBoderColor;
+}
+
+$sortLiA:85px;
+
+.sort ul li a{
+    float:$menuLeftFloat;
+    line-height:$sortHeight;
+    width:$sortLiA;
+    text-align: $menuLeftTxt;
+}
+$sortAI:4px;
+.sort ul li a i{
+    margin-left:$sortAI;
+    font-size:10px;
+}
+$sortAHoverColor:#be1622;
+.sort ul li a:hover{
+    color:$sortAHoverColor;
+}
+
+$sortCheckWidth:200px;
+.sort .check{
+    height:$sortHeight;
+    line-height:$sortHeight;
+    float:$menuLeftFloat;
+    width:$sortCheckWidth;
+}
+$verticalAlign:middle;
+.sort .check input{
+    vertical-align: $verticalAlign;
+}
+$floatRight:right;
+$sortNextWidth:80px;
+.sort .next{
+    height:$sortHeight;
+    line-height:$sortHeight;
+    float:$floatRight;
+    width:$sortNextWidth;
+}
+$sortNextMarginLeft:15px;
+.sort .next a{
+    margin-left:$sortNextMarginLeft;
+}
+$mainWidth:980px;
+$mainHeight:4500px;
+.mains{
+    width:$mainWidth;
+    height:$mainHeight;
+    margin:0px $markmargin2;
+}
+$mainShopWidth:235px;
+$mainShopHeight:370px;
+$mainShopBorderColor1:#fff;
+$mainShopBorderColor2:#c51520;
+$mainMarginLeft:7px;
+.mains .mainShop{
+    width:$mainShopWidth;
+    height:$mainShopHeight;
+    float:$menuLeftFloat;
+    border: $menuBorderWidth $solid $mainShopBorderColor1;
+    margin-left:$mainMarginLeft;
+}
+.mains .mainAction{
+    border: $menuBorderWidth $solid $mainShopBorderColor2;
+}
+$shopImgDisplay:block;
+$shopImgWidth:200px;
+$shopImgHeight:200px;
+.mains .mainShop .shopImg{
+    display:$shopImgDisplay;
+    width:$shopImgWidth;
+    height:$shopImgHeight;
+    margin:0px $markmargin2;
+}
+$priceWidth:100%;
+$priceHeight:32px;
+$priceMarginTop:5px;
+.mains .mainShop .price{
+    width:$priceWidth;
+    height:$priceHeight;
+    margin-top:$priceMarginTop;
+}
+$priColor:#c51520;
+$priFontSize:18px;
+$priFontWeight:bold;
+$priceDisplay:inline-block;
+$priceLineHeight:32px;
+.mains .mainShop .price .pri{
+    color:$priColor;
+    font-size: $priFontSize;
+    font-weight:$priFontWeight;
+    display:$priceDisplay;
+    line-height:$priceLineHeight;
+}
+$primFontSize:14px;
+.mains .mainShop .price .prim{
+    color:$priColor;
+    font-size: $primFontSize;
+    font-weight:$priFontWeight;
+}
+$costmMarginLeft:15px;
+.mains .mainShop .price .costm{
+    margin-left:$costmMarginLeft;
+}
+$costDecoration:line-through;
+.mains .mainShop .price .cost{
+    text-decoration:$costDecoration;
+    display:$priceDisplay;
+    line-height:$priceLineHeight;
+}
+$priImgMarginRight:5px;
+.mains .mainShop .price .priImg{
+    float:$floatRight;
+    margin-right:$priImgMarginRight
+}
+$productColor1:#4b4b4b;
+$producsWidth:100%;
+$producsHeight:40px;
+$producsLineHeight:20px;
+.mains .mainShop .product{
+    display:$shopImgDisplay;
+    color:$productColor1;
+    width:$producsWidth;
+    height:$producsHeight;
+    line-height:$producsLineHeight;
+}
+$productColor2:#c51520;
+.mains .mainShop .product:hover{
+    color:$productColor2;
+}
+$repMarginLeft:10px;
+.mains .mainShop .product .rep{
+    color:$productColor2;
+    margin-left:$repMarginLeft;
+}
+$discussWidth:100%;
+$discussHeight:15px;
+.mains .mainShop .discuss{
+    width:$discussWidth;
+    height:$discussHeight;
+    margin-top:5px;
+}
+
+.mains .mainShop .discuss img{
+    vertical-align: middle;
+}
+$dissMarginLeft:5px;
+$dissColor1:#4b4b4b;
+$dissColor2:#c51520;
+.mains .mainShop .discuss a{
+    color:$dissColor1;
+    margin-left:$dissMarginLeft;
+}
+.mains .mainShop .discuss a:hover{
+    color:$dissColor2;
+}
+$carWidth:100%;
+$carHeight:33px;
+.mains .mainShop .car{
+    width:$carWidth;
+    height:$carHeight;
+    margin-top:10px;
+}
+$txtWidth:40px;
+$txtHeight:25px;
+$txtBorderColor:#ccc;
+.mains .mainShop .car input{
+    width:$txtWidth;
+    height:$txtHeight;
+    border:$b1 $solid $txtBorderColor;
+    float:$menuLeftFloat;
+    vertical-align: middle;
+}
+$upWidth:16px;
+$upHeight:40px;
+$upMargin:10px;
+.mains .mainShop .car .up{
+    width:$upWidth;
+    height:$upHeight;
+    float:$menuLeftFloat;
+    margin:0 $upMargin;
+}
+.mains .mainShop .car .addShop{
+    float:$menuLeftFloat;
+}
+.mains .mainShop .car img{
+    float:$menuLeftFloat;
+    cursor:pointer;
+}
+$brandWidth:100%;
+$brandHeight:25px;
+$brandTxtAlgin:center;
+$brandLineHeight:25px;
+$brandColor1:#4b4b4b;
+$brandColor2:#c51520;
+$brandBgColor:#f4f4f4;
+.mains .mainShop .brand{
+    width:$brandWidth;
+    height:$brandHeight;
+    text-align: $brandTxtAlgin;
+    line-height:$brandLineHeight;
+    background:$brandBgColor;
+}
+.mains .mianShop .brand a{
+    color:$brandColor1;
+}
+.mains .mianShop .brand a:hover{
+    color:$brandColor2;
+}

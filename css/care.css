@@ -1,0 +1,203 @@
+body{
+	width:100%;
+	min-width:1000px;
+}
+.body{
+	height:auto;
+	width:887px;
+	margin:0px auto;
+}
+.nav{
+	width:100%;
+	margin:0px auto;
+	height:50px;
+	line-height:50px;
+	overflow: hidden;
+}
+.nav span{
+	display:inline-block;
+	line-height:50px;
+	color:#4b4b4b;
+}
+.nav .place{
+	margin-left:565px;
+}
+.nav a{
+	display:inline-block;
+	line-height:50px;
+	color:#8cc341;
+	margin:0px 5px;
+}
+.nav .help{
+	color:#4B4B4B;
+	margin-left:10px;
+}
+.nav .help:hover{
+	color:#C60000
+}
+.logo{
+	height:65px;
+	width:100%;
+	margin:0px auto;
+}
+.logo img{
+	float:left;
+}
+.main{
+	height:auto;
+	width:100%;
+	border:1px solid #c2c2c2;
+}
+.main h2{
+	height:40px;
+	line-height:40px;
+	padding-left:20px;
+	font-size:18px;
+	background:#ffecf2;
+}
+.main .tit{
+	height:60px;
+	padding-left:20px;
+	line-height:60px;
+	font-weight: bold;
+	border-bottom: 1px solid #b33b57;
+}
+.main .rule{
+	background:#ffecf2;
+}
+.main .rule p{
+	line-height:30px;
+	padding-left:20px;
+}
+.main .rule p span{
+	color:#a22d48;
+}
+
+#last{
+	height:60px;
+	line-height:60px;
+	text-align: center;
+	font-size:16px;
+}
+#last a{
+	font-size:16px;
+	color:blue;
+}
+#sh{
+	display:none;
+	height:auto;
+	width:100%;
+}
+#sh>p{
+	padding-left:20px;
+	line-height:30px;
+	border-bottom:1px dashed #ccc;
+}
+#tablist{
+	height:auto;
+	width:100%;
+	
+}
+#thd{
+	height:30px;
+	width:100%;
+	background:#ccc;
+}
+#thd tr{
+	height:30px;
+	width:100%;
+	background:#ccc;
+}
+#tablist tr td{
+	text-align: center;
+}
+#tbd{
+	width:100%;
+	height:auto;
+}
+#tbd tr{
+	height:100px;
+	width:100%;
+	background:#fffddd;
+}
+#tbd tr td{
+	text-align: center;
+}
+.totle{
+	height:40px;
+	border-top:1px dashed #ccc;
+	border-bottom:1px dashed #ccc;
+	line-height:40px;
+	text-align: right;
+	padding-right:20px;
+}
+.totle span{
+	display:inline-block;
+	line-height:40px;
+}
+.tot{
+	color:#4B4B4B;
+	font-size: 16px;
+}
+.many{
+	color:#d80100;
+	font-size:18px;
+}
+.tot1{
+	margin-right:20px;
+}
+.close{
+	height:50px;
+	line-height:50px;
+	text-align: right;
+	padding-right:20px;
+}
+.close a{
+	display:inline-block;
+	line-height:50px;
+	margin:0px 5px;
+}
+.close a img{
+	vertical-align: middle;
+}
+#clos{
+	color:blue;
+	
+}
+.tdlist0 img{
+	height:70px;
+	width:70px;
+	
+}
+.tdlist1 span{
+	display:block;
+	text-align: left;
+	line-height:25px;
+}
+#tbd .tdlist1{
+	text-align: left;
+}
+#tbd .tdlist1 a{
+	display:inline-block;
+	line-height:25px;
+	color:blue;
+	margin:0px 3px;
+	text-decoration:underline;
+}
+#tbd .tdlist1 a:hover{
+	color:red;
+}
+.tdlist5 img{
+	height:15px;
+	width:15px;
+	vertical-align: middle;
+	margin:0px 4px;
+}
+.tdlist5 input{
+	height:13px;
+	width:23px;
+	vertical-align: middle;
+	text-align: center;
+	background:#eee;
+	border:1px solid #999;
+}

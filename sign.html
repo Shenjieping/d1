@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册页面</title>
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/sign.css" />
+		<link rel="stylesheet" href="css/footer.css" />
+		<script type="text/javascript" src="js/jquery.js" ></script>
+		<script type="text/javascript" src="js/sign.js" ></script>
+		<script type="text/javascript">
+			window.onload=function(){
+				new Main().main();
+				//regiser();
+				regist();
+			}
+		</script>
+	</head>
+	<body>
+		<div class="body">
+			<div class="nav-box">
+				<div class="nav">
+					<a href="d1-index.html" class="logo"><img src="img/images/1_5_03.png" title="返回首页" alt="优尚" /></a>
+					<p class="login">你好，欢迎来到D1购物，请<a href="login.html">登录</a>或<a href="sign.html">注册</a></p>
+					<ul>
+						<li><a href="#">我的账户</a></li>
+						<li>|</li>
+						<li><a href="#">订单查询</a></li>
+						<li>|</li>
+						<li><a href="#">我的优惠券</a></li>
+						<li>|</li>
+						<li><a href="#">积分换购</a></li>
+						<li>|</li>
+						<li><a href="#">帮助中心</a></li>
+					</ul>
+				</div>
+			</div>	
+			<div class="main">
+				<div class="mainLogo">
+					<a href="login.html">
+						<span>已有账户</span>
+						<img src="img/sigin/reglogin.png" />
+					</a>
+				</div>
+				<div class="main-sign">
+					<h3>填写注册信息</h3>
+					<div class="number">
+						<span>*手机号码：</span>
+						<input type="text" id="num" />
+						<img src="img/sigin/no.gif"/>
+					</div>
+					<div class="code">
+						<span></span>
+						<input type="text" id="code" placeholder="请输入右侧图片数字" />
+						<span id="auth"></span>
+						<a href="#">刷新</a>
+						<input type="button" value="获取验证码" id="but" />
+					</div>
+					<div class="phoneCode">
+						<span>*手机验证码：</span>
+						<input type="text" id="phoneCode" />
+						<p id="title">验证码不能为空</p>
+						<p id="phoneTitle">请输入正确的手机号。便于接收订单信息，取回密码等。</p>
+					</div>
+					<div class="sex">
+						<span>*你的性别：</span>
+						<input type="radio" id="nan" name="sex" /><label for="nan">男</label>
+						<input type="radio" id="nv" name="sex" /><label for="nv">女</label>
+						<img src="img/sigin/suc.jpg" />
+						<p>选择性别，方便我们推荐适合你的商品。</p>
+					</div>
+					<div class="pass">
+						<span>*设置密码</span>
+						<input type="password" id="pass" />
+						<img id="passMis" src="img/sigin/no.gif"/>
+						<p>密码长度为6-14位，支持、数字、符号、字符，区分大小写</p>
+					</div>
+					<div class="rpass">
+						<span>*确认密码</span>
+						<input type="password" id="rpass" />
+						<img id="passMis" src="img/sigin/no.gif"/>
+						<p id="tip">请再次输入你设置的密码</p>
+					</div>
+					<div class="reg">
+						<input type="button" name="reg" id="reg" value="立即注册" />
+					</div>
+				</div>
+			</div>
+			<div class="foot">
+				
+			</div>
+		</div>
+	</body>
+</html>

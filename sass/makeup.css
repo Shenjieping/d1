@@ -1,0 +1,221 @@
+.body {
+  width: 100%;
+  height: auto; }
+
+.mark {
+  width: 995px;
+  height: 35px;
+  border: 1px solid #e2e2e2;
+  margin: 0px auto;
+  line-height: 35px;
+  padding-left: 5px; }
+
+.mark a:hover {
+  color: #aa2e44; }
+
+.menue {
+  width: 980px;
+  height: 439px;
+  border: 1px solid #ccc;
+  margin: 12px auto; }
+
+.colos {
+  width: 100%;
+  height: auto;
+  padding: 5px 0;
+  border-bottom: 1px solid #e2e2e2; }
+
+.menuLeft {
+  width: 85px;
+  height: 30px;
+  float: left;
+  text-align: center;
+  line-height: 30px;
+  border-right: 1px solid #e2e2e2; }
+
+.menuRight {
+  width: 837px;
+  height: auto;
+  float: left;
+  line-height: 30px; }
+
+.colos .menuRight li {
+  float: left;
+  line-height: 30px; }
+
+.colos .menuRight li a {
+  float: left;
+  padding: 0 8px;
+  line-height: 30px;
+  color: #666; }
+
+.colos .menuRight li a:hover {
+  color: #e4393c; }
+
+.sort {
+  width: 980px;
+  height: 35px;
+  border: 1px solid #ccc;
+  border-top: 2px solid #575757;
+  margin: 0px auto 20px; }
+
+.sort ul {
+  height: 35px;
+  width: 363px;
+  float: left; }
+
+.sort ul li {
+  height: 35px;
+  float: left;
+  line-height: 35px;
+  border-right: 1px solid #ccc; }
+
+.sort ul li a {
+  float: left;
+  line-height: 35px;
+  width: 85px;
+  text-align: center; }
+
+.sort ul li a i {
+  margin-left: 4px;
+  font-size: 10px; }
+
+.sort ul li a:hover {
+  color: #be1622; }
+
+.sort .check {
+  height: 35px;
+  line-height: 35px;
+  float: left;
+  width: 200px; }
+
+.sort .check input {
+  vertical-align: middle; }
+
+.sort .next {
+  height: 35px;
+  line-height: 35px;
+  float: right;
+  width: 80px; }
+
+.sort .next a {
+  margin-left: 15px; }
+
+.mains {
+  width: 980px;
+  height: 4500px;
+  margin: 0px auto; }
+
+.mains .mainShop {
+  width: 235px;
+  height: 370px;
+  float: left;
+  border: 1px solid #fff;
+  margin-left: 7px; }
+
+.mains .mainAction {
+  border: 1px solid #c51520; }
+
+.mains .mainShop .shopImg {
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: 0px auto; }
+
+.mains .mainShop .price {
+  width: 100%;
+  height: 32px;
+  margin-top: 5px; }
+
+.mains .mainShop .price .pri {
+  color: #c51520;
+  font-size: 18px;
+  font-weight: bold;
+  display: inline-block;
+  line-height: 32px; }
+
+.mains .mainShop .price .prim {
+  color: #c51520;
+  font-size: 14px;
+  font-weight: bold; }
+
+.mains .mainShop .price .costm {
+  margin-left: 15px; }
+
+.mains .mainShop .price .cost {
+  text-decoration: line-through;
+  display: inline-block;
+  line-height: 32px; }
+
+.mains .mainShop .price .priImg {
+  float: right;
+  margin-right: 5px; }
+
+.mains .mainShop .product {
+  display: block;
+  color: #4b4b4b;
+  width: 100%;
+  height: 40px;
+  line-height: 20px; }
+
+.mains .mainShop .product:hover {
+  color: #c51520; }
+
+.mains .mainShop .product .rep {
+  color: #c51520;
+  margin-left: 10px; }
+
+.mains .mainShop .discuss {
+  width: 100%;
+  height: 15px;
+  margin-top: 5px; }
+
+.mains .mainShop .discuss img {
+  vertical-align: middle; }
+
+.mains .mainShop .discuss a {
+  color: #4b4b4b;
+  margin-left: 5px; }
+
+.mains .mainShop .discuss a:hover {
+  color: #c51520; }
+
+.mains .mainShop .car {
+  width: 100%;
+  height: 33px;
+  margin-top: 10px; }
+
+.mains .mainShop .car input {
+  width: 40px;
+  height: 25px;
+  border: 1px solid #ccc;
+  float: left;
+  vertical-align: middle; }
+
+.mains .mainShop .car .up {
+  width: 16px;
+  height: 40px;
+  float: left;
+  margin: 0 10px; }
+
+.mains .mainShop .car .addShop {
+  float: left; }
+
+.mains .mainShop .car img {
+  float: left;
+  cursor: pointer; }
+
+.mains .mainShop .brand {
+  width: 100%;
+  height: 25px;
+  text-align: center;
+  line-height: 25px;
+  background: #f4f4f4; }
+
+.mains .mianShop .brand a {
+  color: #4b4b4b; }
+
+.mains .mianShop .brand a:hover {
+  color: #c51520; }
+
+/*# sourceMappingURL=makeup.css.map */
